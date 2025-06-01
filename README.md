@@ -14,8 +14,11 @@
 
 
 语言：C++17
+
 运行平台：Windows
+
 依赖库：SDL2、SDL2_image、SDL2_mixer、SDL2_ttf、boost.serialization、zlib
+
 （自行编译时请注意是否链接了这些库）
 
 注意：直接编译也是无法运行，这只是一个程序，它还需要资源文件，资源文件按一定目录结构放置，剧本文件按一定规则写，使用文件管理器里的load_game_data函数即可自动序列化资源文件
