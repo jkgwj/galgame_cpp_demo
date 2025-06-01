@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\game_data">
+      <UniqueIdentifier>{4820a8aa-b9dc-422e-a291-8371f0154233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\scene">
+      <UniqueIdentifier>{b6671032-fc70-4f3b-9874-d7ddc7c88023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\game_data">
+      <UniqueIdentifier>{b177673c-bbb1-4399-90e4-f7b12e5c1ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\button">
+      <UniqueIdentifier>{59a47568-2081-43a0-b8bc-bf2fb2279ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UI">
+      <UniqueIdentifier>{f017f79f-3231-4018-b885-c9603111d656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\button">
+      <UniqueIdentifier>{c2062264-3676-4b84-99a8-32d3021bafe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\game_data\game_data_kyara">
+      <UniqueIdentifier>{8d2aa48f-7584-4847-95b2-ff1418952755}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="galgame_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_data_manager.cpp">
+      <Filter>源文件\game_data</Filter>
+    </ClCompile>
+    <ClCompile Include="game_data_txt.cpp">
+      <Filter>源文件\game_data</Filter>
+    </ClCompile>
+    <ClCompile Include="game_data_kyara_futuu.cpp">
+      <Filter>源文件\game_data</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="button_txt.cpp">
+      <Filter>源文件\button</Filter>
+    </ClCompile>
+    <ClCompile Include="button_img.cpp">
+      <Filter>源文件\button</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_data_audio.cpp">
+      <Filter>源文件\game_data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="set_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="game_data_manager.h">
+      <Filter>头文件\game_data</Filter>
+    </ClInclude>
+    <ClInclude Include="data_tool.h">
+      <Filter>头文件\game_data</Filter>
+    </ClInclude>
+    <ClInclude Include="game_data_txt.h">
+      <Filter>头文件\game_data</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_state.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="button_txt.h">
+      <Filter>头文件\button</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Skin.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="button_img.h">
+      <Filter>头文件\button</Filter>
+    </ClInclude>
+    <ClInclude Include="game_data_audio.h">
+      <Filter>头文件\game_data</Filter>
+    </ClInclude>
+    <ClInclude Include="button_inc.h">
+      <Filter>头文件\button</Filter>
+    </ClInclude>
+    <ClInclude Include="game_data_kyara.h">
+      <Filter>头文件\game_data\game_data_kyara</Filter>
+    </ClInclude>
+    <ClInclude Include="game_data_kyara_futuu.h">
+      <Filter>头文件\game_data\game_data_kyara</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include=".gitignore" />
+    <None Include=".gitattributes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE.txt" />
+  </ItemGroup>
+</Project>
